@@ -8,3 +8,7 @@
 
 arr = ["Red", "Green", "Blue", "White"]
 puts arr.last {|x| x.match /o/}
+
+
+fact  = ["Red", "Green", "Blue", "White"]
+p fact.index("White")

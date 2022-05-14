@@ -1,9 +1,7 @@
 Array = ["test", "test1", "test12", "test123", "test1234", "test122345"]
 
-# p ["test","test1","test12"]
+ p ["test","test1","test12"]
 
-# p names[2]
-# p names.fetch(2)
  # p Array.values_at(0,1,2)
 
 # Array.max(Array)
