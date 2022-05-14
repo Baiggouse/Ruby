@@ -1,6 +1,11 @@
+r = [0, 2, 4, 2, 8, 10, 12, 14, 16, 18,2]
 
- arr = ["test", "test1", "test12", "test123", "test1234", "test122345"]
- p arr.max
- p arr.max.length 
- puts arr.max_by(&:length)
- 
+
+
+def sum_double(x, y)
+
+return x == y ? (x+y)*2 : x+y
+
+end
+
+print sum_double(r[1], r[4]),"\n"

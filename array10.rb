@@ -1,14 +1,4 @@
-# arr = ["Red", "Green", "Blue", "White"]
-# if arr.index("white")
-#     puts "white exists in the array"
-# end
 
+array = [11, 21, 31, 41, 11, 11, 22].uniq
 
- ["Red", "Green", "Blue", "White"].include? 'white'
-
-arr = ["Red", "Green", "Blue", "White"]
-puts arr.last {|x| x.match /o/}
-
-
-fact  = ["Red", "Green", "Blue", "White"]
-p fact.index("White")
+p array.each_with_index.to_h

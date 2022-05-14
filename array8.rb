@@ -1,11 +1,15 @@
-r = [0, 2, 4, 2, 8, 10, 12, 14, 16, 18,2]
+puts "Odd numbers between 1 to 10:"
 
+# select
+  arr = (1..10)
+  p arr.select(&:odd?)
 
+# each_char
+  a = (1..10).to_a
+p a.select(&:odd?)
 
-def sum_double(x, y)
+# map
+ # arr = (1..10).map(&:odd?)
 
-return x == y ? (x+y)*2 : x+y
-
-end
-
-print sum_double(r[1], r[4]),"\n"
+arr = (1..10)
+p arr.each_with_index.select { |str, i| i.even? }.map(&:first)
