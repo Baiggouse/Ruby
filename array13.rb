@@ -12,7 +12,7 @@ end
     class Rectangle < Shape
     attr_accessor :color, :width, :height
   
-    def initialize(width, height, color="Red")
+    def initialize(width, height, color="Blue")
         super(color)
         @width = width
         @height = height
@@ -41,7 +41,7 @@ end
     class Circle < Shape
 
         attr_accessor :color, :r
-    def initialize(r, color="Red")
+    def initialize(r, color="Black")
         super(color)
           @r = r
     end
